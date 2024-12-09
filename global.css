@@ -7,14 +7,13 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body {
   height: 100vh;
   padding: 0px 25px;
   background-color: #1a1a19;
   color: bisque;
-  
 }
 nav {
   display: flex;
@@ -32,30 +31,40 @@ nav ul {
   gap: 60px;
 }
 /* color decalration */
-nav a
- {
+nav a {
   color: bisque;
 }
-.logo{
-    font-weight: bold;
-    letter-spacing: 2px;
+.logo {
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 /* home styling */
 .home {
-    display: flex;
-    justify-content:  center;
-    align-items: center;
-    height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 .home section aside img {
-    height: 350px;
-    aspect-ratio: 1/1;
-    border-radius: 100%;
+  height: 350px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
 }
 .home section {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    padding: 0px 90px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  padding: 0px 90px;
+}
+.home article {
+  font-size: 20px;
+}
+article h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+article p {
+  position: absolute;
+  font-size: 40px;
 }
