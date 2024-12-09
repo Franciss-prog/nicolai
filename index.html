@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="global.css" />
+    <!-- cdn -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <!--nav root  -->
+    <nav>
+      <a href="index.html" class="logo">NICOLAI</a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="home">
+      <!-- container -->
+      <section>
+        <aside>
+          <img src="nicolai.jpg" alt="" />
+        </aside>
+        <article>
+            <h1>Hi I'm Nico</h1>
+            <p>A <span id="element"></span> that you can trust</p>
+         
+        </article>
+      </section>
+    </main>
+  </body>
+<script>
+      var typed = new Typed('#element', {
+                strings: ['Gamer', 'Nc2 holder'],
+                typeSpeed: 100,
+                loop: true,
+                loopCount: Infinity,
+                backDelay: 3000,
+            });
+</script>
+</html>

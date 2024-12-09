@@ -1,0 +1,61 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* root*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100vh;
+  padding: 0px 25px;
+  background-color: #1a1a19;
+  color: bisque;
+  
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  width: auto;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+nav ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+/* color decalration */
+nav a
+ {
+  color: bisque;
+}
+.logo{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* home styling */
+.home {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 60vh;
+}
+.home section aside img {
+    height: 350px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+.home section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0px 90px;
+}
