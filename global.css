@@ -161,3 +161,7 @@ form button:hover {
 .contact section a{
     color: bisque;
 }
+/* webkit scrollbar */
+::-webkit-scrollbar{
+    display: none;
+}
